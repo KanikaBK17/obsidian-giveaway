@@ -4,9 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Claim Your Free Obsidian Second Brain</title>
-  <!-- Load Beehiiv early -->
-  <script src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="a39e3f61-ed3d-4708-a6aa-1b3f59c596f7"></script>
-  <script async src="https://subscribe-forms.beehiiv.com/attribution.js"></script>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -23,18 +20,19 @@
     }
     h1 { font-size: 1.8rem; margin-bottom: 8px; }
     p  { color: #555; margin-bottom: 24px; }
-
-    /* Center the Beehiiv iframe */
-    iframe {
-      display: block !important;
-      margin: 0 auto !important;
-      max-width: 500px !important;
-      width: 100% !important;
+    #form-wrap {
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
     }
   </style>
 </head>
 <body>
   <h1>🎁 Claim Your Free Copy</h1>
   <p>Enter your email — get instant access.</p>
+  <div id="form-wrap">
+    <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="a39e3f61-ed3d-4708-a6aa-1b3f59c596f7"></script>
+    <script async src="https://subscribe-forms.beehiiv.com/attribution.js"></script>
+  </div>
 </body>
 </html>
